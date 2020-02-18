@@ -92,7 +92,9 @@ public class MainActivity extends AppCompatActivity {
                 //      body: 'bar',
                 //      userId: 1
                 Map<String, String> params = new HashMap<>();
-                params.put("api_key", "24bf810575bc5bfbe2aef1ed6cd4517b");
+
+                // Mn dùng key tự đăng kí nhé
+                params.put("api_key", "YOUR KEY");
                 params.put("user_id", "184057905@N03");
                 params.put("extras", "views, media, path_alias, url_sq, url_t, url_s, url_q, url_m, url_n, url_z, url_c, url_l, url_o");
                 params.put("format", "json");
